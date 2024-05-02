@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/widgets_margin_size"
+    android:layout_marginVertical="@dimen/widgets_margin_size.small"
+    android:backgroundTint="@color/md_theme_light_onBackground">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/characterImageView"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:contentDescription="@string/greenbox_image"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/characterImageView"
+            app:layout_constraintTop_toTopOf="@+id/characterImageView">
+
+            <TextView
+                android:id="@+id/nameTextView"
+                style="@style/widgets_subtitleText.bold.white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Name" />
+
+            <TextView
+                android:id="@+id/specieTextView"
+                style="@style/widgets_smallText.white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Specie" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/widgets_margin_size.small"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/statusImageView"
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/greenbox_image"
+                    app:srcCompat="@drawable/ic_circle" />
+
+                <TextView
+                    android:id="@+id/statusTextView"
+                    style="@style/widgets_normalText.white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="4dp"
+                    tools:text="Status" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

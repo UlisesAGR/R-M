@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/charactersFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_format_list_bulleted"
+        android:title="@string/app_character_list" />
+
+    <item
+        android:id="@+id/phoneFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_phone"
+        android:title="@string/app_phone" />
+
+    <item
+        android:id="@+id/noteFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_note"
+        android:title="@string/app_note" />
+
+</menu>

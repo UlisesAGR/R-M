@@ -1,0 +1,18 @@
+<resources>
+    <string name="greenbox_confirm">Confirm</string>
+    <string name="greenbox_image">Image</string>
+    <string name="greenbox_accept">Accept</string>
+    <string name="greenbox_title">Title</string>
+    <string name="greenbox_sub_title">Sub Title</string>
+    <string name="allow_access_to_the_permission">Allow access to the permission</string>
+    <string name="it_is_very_important_to_configure_this_permission">It is very important to configure this permission for the correct use of the app</string>
+    <string name="set_permission">Set Permission</string>
+    <string name="location_permit">Location Permit</string>
+    <string name="access_your_precise_location">Allow us to access your precise location on your cell phone</string>
+    <string name="access_your_calls_phone">Allow us to access your calls on your cell phone</string>
+    <string name="camera_permit">Camera Permit</string>
+    <string name="access_your_camera">Allow us to access your camera on your cell phone</string>
+    <string name="storage_permit">Storage Permit</string>
+    <string name="access_your_storage">Allow us to access your Storage in your cell phone</string>
+    <string name="call_phone_permit">Call Phone Permit</string>
+</resources>

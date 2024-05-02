@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_rick_y_morty">Rick y Morty</string>
+    <string name="app_continue">Continue</string>
+    <string name="app_here_you_can_see_content_about_rick_and_morty">Here you can see content about Rick and Morty</string>
+    <string name="app_character_list">Character List</string>
+    <string name="app_empty_list">Empty list</string>
+    <string name="app_here_you_can_see_your_recipes">Here you can see your characters</string>
+    <string name="app_message">Message</string>
+    <string name="app_accept">Accept</string>
+    <string name="app_back">Back</string>
+    <string name="app_character_detail">Character Detail</string>
+    <string name="app_loading">Loading...</string>
+    <string name="app_refresh">Refresh</string>
+    <string name="app_try_again_later">Try again later</string>
+    <string name="app_place_try_again_later">Place try again later</string>
+    <string name="app_phone">Phone</string>
+    <string name="app_call_phone">Call phone</string>
+    <string name="app_phone_support">3314275599</string>
+    <string name="app_click_to_call_the_support_mobile_number">Click to call the support mobile number</string>
+    <string name="app_cancel">Cancel</string>
+    <string name="app_you_want_to_dial_support_by_phone">You want to dial support by phone</string>
+    <string name="app_your_device_doesnt_support_voice_input">Your device doesn\'t support voice input</string>
+    <string name="app_note">Note</string>
+    <string name="app_update_your_note_from_here">Update your note from here</string>
+    <string name="app_clear">Clear</string>
+    <string name="app_error_getting_character">Error getting character</string>
+</resources>
